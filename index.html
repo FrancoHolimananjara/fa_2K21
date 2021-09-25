@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="framework_css.css">
+    <link rel="stylesheet" href="style.css">
+    <title>The Skyline</title>
+</head>
+<body>
+    <div class="splash-screen">
+        <div class="intro">
+            <h1 class="skyline">
+                <span class="logo">Sk<span class="logo">yl<span class="logo">in<span class="logo">e</span></span></span></span>
+                <!--span class="logo">Skyline</span-->
+            </h1>
+        </div>
+        <head>
+            <h4>ito</h4>
+        </head>
+        <a name="tete"></a>
+        <div class="slider">
+            <div class="texte">
+                <p id="the">the</p>
+                <h1 id="skyline">SKYLINE</h1>
+              
+                <p class="movie">Movie-inspired Cinematic Openers</p>
+                <p class="movie">Exclusively for Final Cut Pro</p>
+                <a href="#drop" class="drop">Drop Down</a>
+            </div>
+        </div>
+        
+        <a name="drop"></a>
+        <div class="content d-grid mt-15">
+            <div class="content_1 col-6-d box">
+                <div class="typographie">
+                    <div class="movie_inspired uppercase">
+                        <h1>movie-inspired</h1>
+                    </div>
+                    <div class="typo uppercase">
+                        <h1>typography</h1>
+                    </div>
+                </div>
+                <div class="lorem">
+                    Masterly animated captions allure your viewer with modern motion design and introduce a true filmic atmosphere in your edits
+                </div>
+
+
+                <div class="video">
+                    <img id="video" src="images/video_thumbnail.jpg" alt="video">
+                </div>
+            </div>
+            <div class="content_2 col-6-d box">
+                <div class="soratra_kely uppercase d-grid_2">
+                    <div class="soratra-left">
+                        <ul class="link">
+                            <a href="#tete">
+                            <li>watch</li>
+                            <li>tutorial</li></a>
+                        </ul>
+                    </div>
+                    <div class="soratra rigth">
+                        <ul class="link">
+                            <a href="#tete">
+                            <li>watch</li>
+                            <li>trailer</li></a>
+                        </ul>
+                    </div>
+                    <div class="slide">
+                        <div class="row">
+                            <div class="column">
+                                <img src="images/slide_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor imgslide1">
+                            </div>
+                        </div>
+                        <div id="myModal" class="modal">
+                                <span class="close cursor" onclick="closeModal()">&times;</span>
+                                <div class="modal-content">
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">1 / 3</div>
+                                    <img src="images/slide_1_full.jpg" sizes="cover" style="width: 100%">
+                                    </div>
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">2 / 3</div>
+                                    <img src="images/slide_2_full.jpg" sizes="cover" style="width: 100%" >
+                                    </div>
+                                
+                                    <div class="mySlides">
+                                    <div class="numbertext">3 / 3</div>
+                                    <img src="images/slide_3_full.jpg" sizes="cover" style="width: 100%">
+                                    </div>
+                                    
+                                    <div class="btn-p">
+                                    <span class="prev" onclick="plusSlides(-1)">
+                                        <p class="tir tp"> </p><span> PREVIOUS</span>
+                                    </span>
+                                    <!--a class="prev" onclick="plusSlides(-1)">
+                                        <p class="tir"> </p>PREVIOUS
+                                    </a-->
+                                    </div>
+                                    <div class="btn-n">
+                                    <span class="next" onclick="plusSlides(1)">
+                                        <span><span></span> NEXT</span> <p class="tir tn"> </p>
+                                    </span>
+                                    </div>
+                                    <div class="caption-container">
+                                    <p id="caption"></p>
+                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                </div>
+        <script src="app.js"></script>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
